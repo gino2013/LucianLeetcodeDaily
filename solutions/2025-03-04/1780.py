@@ -16,6 +16,3 @@ class Solution:
             power -= 1
 
         return remaining == 0
-
-
-        
