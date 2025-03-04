@@ -1,0 +1,48 @@
+# Ignore Python-related temporary files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+env.bak/
+*.env
+
+# Ignore IDE-related files
+.idea/           # PyCharm
+*.vscode/        # Visual Studio Code
+*.sublime-workspace
+*.sublime-project
+
+# Ignore system files
+.DS_Store        # macOS system files
+Thumbs.db        # Windows thumbnail cache
+Desktop.ini
+
+# Ignore log files
+*.log
+
+# Ignore test or temporary files
+test_output/
+temp/
+*.tmp
+
+# Ignore backup files
+*.bak
+*.swp
+
+# Ignore OS-specific files
+# Windows
+ehthumbs.db
+ehthumbs_vista.db
+
+# Ignore Node.js files (if future frontend development is added)
+node_modules/
+npm-debug.log*
+
+# Ensure solutions/ and notes/ folders are not ignored
+!solutions/
+!notes/
