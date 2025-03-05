@@ -11,8 +11,8 @@ Initiated on March 4, 2025, this repository reflects my commitment to continuous
   - Problem ID: [LeetCode #1780](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)  
   - Approach: Greedy algorithm with \( O(\log_3 n) \) time complexity and \( O(1) \) space complexity.  
   - Notes: Utilized the property of ternary representation to ensure distinct powers of three.  
-  - **2025-03-05**: [LeetCode #2579](solutions/2025-03-05/2579.py)  
-  - Problem ID: [LeetCode #1780](https://leetcode.com/problems/count-total-number-of-colored-cells/)   
+- **2025-03-05**: [Count Total Number of Colored Cells](solutions/2025-03-05/2579.py)  
+  - Problem ID: [LeetCode #2579](https://leetcode.com/problems/count-total-number-of-colored-cells/)   
   - Approach: Mathematical formula with \( O(1) \) time complexity and \( O(1) \) space complexity.  
   - Notes: Derived a quadratic formula \( f(n) = 2n^2 - 2n + 1 \) from pattern observation and solved using algebraic equations.
 - **...** (More entries will be added daily)
