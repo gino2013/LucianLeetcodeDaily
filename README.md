@@ -7,10 +7,14 @@ This repository serves as a comprehensive log of my daily LeetCode practice chal
 Initiated on March 4, 2025, this repository reflects my commitment to continuous learning and skill development in computer science. Inspired by the need to strengthen my foundation for software engineering roles, I aim to cover a wide range of LeetCode problems, spanning Easy, Medium, and Hard difficulties. The solutions are version-controlled using Git, hosted on GitHub, and organized by date for easy reference. This project also serves as a portfolio piece to demonstrate my coding consistency and problem-solving capabilities.
 
 ## Progress
-- **2025-03-04**: [Powers of Three](solutions/2025-03-04/powers_of_three.py)  
+- **2025-03-04**: [Powers of Three](solutions/2025-03-04/1780.py)  
   - Problem ID: [LeetCode #1780](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)  
   - Approach: Greedy algorithm with \( O(\log_3 n) \) time complexity and \( O(1) \) space complexity.  
   - Notes: Utilized the property of ternary representation to ensure distinct powers of three.  
+  - **2025-03-05**: [LeetCode #2579](solutions/2025-03-05/2579.py)  
+  - Problem ID: [LeetCode #1780](https://leetcode.com/problems/count-total-number-of-colored-cells/)   
+  - Approach: Mathematical formula with \( O(1) \) time complexity and \( O(1) \) space complexity.  
+  - Notes: Derived a quadratic formula \( f(n) = 2n^2 - 2n + 1 \) from pattern observation and solved using algebraic equations.
 - **...** (More entries will be added daily)
 
 ## Goals
@@ -42,12 +46,12 @@ I welcome contributions and discussions from the community! Here’s how you can
 5. I will review and provide feedback or merge your changes.
 
 ## Contact
-- **GitHub**: [@YourUsername](https://github.com/YourUsername) (Replace with your actual GitHub username)
-- **Email**: [your.email@example.com](mailto:your.email@example.com) (Replace with your email)
+- **GitHub**: [@gino2013](https://github.com/gino2013) 
+- **Email**: [csluling@hotmail.com](mailto:csluling@hotmail.com) 
 - **Feedback**: Feel free to reach out via GitHub Issues for questions, collaborations, or suggestions.
 
 ## License
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details. (Note: Add a `LICENSE` file if you haven’t already.)
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - Inspired by the LeetCode community and resources like NeetCode, LeetCode Discuss, and various online tutorials.
