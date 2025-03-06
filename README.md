@@ -17,9 +17,7 @@ Initiated on March 4, 2025, this repository reflects my commitment to continuous
   - Notes: Derived a quadratic formula \( f(n) = 2n^2 - 2n + 1 \) from pattern observation and solved using algebraic equations.
 - **2025-03-06**: [Find Missing and Repeated Values](solutions/2025-03-06/2965.py)  
   - Problem ID: [LeetCode #2965](https://leetcode.com/problems/find-missing-and-repeated-values/)  
-  - Approach: Hash table (dictionary) counting and iteration.
-    Time Complexity: O(n²)
-    Space Complexity: O(n²)
+  - Approach: Counting and Comparison with O(n²) time complexity and O(n²) space complexity.
   - Notes: The algorithm efficiently finds the repeated and missing values by first counting the    occurrences of each element in the grid using a hash table (dictionary). Then, it iterates through the expected value range [1, n*n] to identify the repeated and missing numbers.
 - **...** (More entries will be added daily)
 
