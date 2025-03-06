@@ -15,6 +15,10 @@ Initiated on March 4, 2025, this repository reflects my commitment to continuous
   - Problem ID: [LeetCode #2579](https://leetcode.com/problems/count-total-number-of-colored-cells/)   
   - Approach: Mathematical formula with \( O(1) \) time complexity and \( O(1) \) space complexity.  
   - Notes: Derived a quadratic formula \( f(n) = 2n^2 - 2n + 1 \) from pattern observation and solved using algebraic equations.
+- **2025-03-06**: [Find Missing and Repeated Values](solutions/2025-03-06/2965.py)  
+  - Problem ID: [LeetCode #2965](https://leetcode.com/problems/find-missing-and-repeated-values/)  
+  - Approach: Brief description of the approach used.  
+  - Notes: Any additional notes or observations.
 - **...** (More entries will be added daily)
 
 ## Goals
@@ -32,7 +36,7 @@ Initiated on March 4, 2025, this repository reflects my commitment to continuous
 - **Documentation**: Each solution includes a Markdown file with problem statement, approach, complexity analysis, and optimization considerations.
 
 ## How to Contribute
-I welcome contributions and discussions from the community! Here’s how you can get involved:
+I welcome contributions and discussions from the community! Here's how you can get involved:
 - **Suggest Solutions**: Propose alternative approaches or optimizations for existing problems.
 - **Discuss Approaches**: Open an issue or pull request to share your insights or ask questions.
 - **Report Issues**: If you find errors in my code or documentation, please submit an issue with details.
