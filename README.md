@@ -19,6 +19,10 @@ Initiated on March 4, 2025, this repository reflects my commitment to continuous
   - Problem ID: [LeetCode #2965](https://leetcode.com/problems/find-missing-and-repeated-values/)  
   - Approach: Counting and Comparison with O(n²) time complexity and O(n²) space complexity.
   - Notes: The algorithm efficiently finds the repeated and missing values by first counting the    occurrences of each element in the grid using a hash table (dictionary). Then, it iterates through the expected value range [1, n*n] to identify the repeated and missing numbers.
+- **2025-03-08**: [Minimum Recolors to Get k Consecutive Black Blocks](solutions/2025-03-08/2379.py)
+  - Problem ID: [LeetCode #2379](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)
+  - Approach: Sliding Window with ( O(n) ) time complexity and ( O(1) ) space complexity.
+  - Notes: Utilized a sliding window of size ( k ) to efficiently calculate the minimum number of recoloring operations needed.
 - **...** (More entries will be added daily)
 
 ## Goals
