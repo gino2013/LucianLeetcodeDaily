@@ -23,6 +23,10 @@ Initiated on March 4, 2025, this repository reflects my commitment to continuous
   - Problem ID: [LeetCode #2379](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)
   - Approach: Sliding Window with ( O(n) ) time complexity and ( O(1) ) space complexity.
   - Notes: Utilized a sliding window of size ( k ) to efficiently calculate the minimum number of recoloring operations needed.
+- **2025-03-09**: [Count of Substrings Containing Every Vowel and K Consonants II](solutions/2025-03-09/3141.py)
+  - Problem ID: [LeetCode #3141](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/)
+  - Approach: Sliding Window with Precomputation, \( O(n) \) time complexity and \( O(1) \) space complexity.
+  - Notes: This solution counts the number of substrings with exactly \( k \) consonants and all five vowels. It uses a sliding window, precomputes the next consonant index for optimization, and maintains vowel counts to efficiently identify valid substrings.
 - **...** (More entries will be added daily)
 
 ## Goals
