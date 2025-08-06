@@ -35,13 +35,63 @@ Initiated on March 4, 2025, this repository reflects my commitment to continuous
 - **Interview Preparation**: Build a robust problem-solving toolkit to excel in technical interviews for software engineering positions.
 - **Community Engagement**: Foster a collaborative environment by sharing knowledge and receiving feedback.
 
+## Quick Start Commands
+
+### **Daily Problem Setup**
+Create and set up today's LeetCode problem template:
+```bash
+./daily [optional_leetcode_url]
+```
+
+**Interactive Setup Process:**
+1. Input problem number (e.g., `3479`)
+2. Input English title (e.g., `Fruits Into Baskets III`)
+3. Input Chinese title (e.g., `水果成籃 III`)  
+4. Input difficulty (`Easy`/`Medium`/`Hard`)
+5. Paste problem description (end with `Ctrl+D` or double enter)
+
+**Generated Files:**
+- `solutions/YYYY-MM-DD/XXXX.py` - Python template with bilingual comments
+- `solutions/YYYY-MM-DD/XXXX.md` - Bilingual markdown documentation (English first, Chinese second)
+
+### **Auto Solution Generator**
+Generate solution for the most recent problem:
+```bash
+./sol
+```
+
+**What it does:**
+- Automatically finds the latest date folder
+- Analyzes the problem files  
+- Generates complete solution code with bilingual comments
+- Updates both Python and Markdown files
+- For problem 3479: Generates full Greedy Algorithm implementation
+- For other problems: Generates template structure
+
+### **Example Workflow**
+```bash
+# 1. Set up today's problem
+./daily "https://leetcode.com/problems/fruits-into-baskets-iii/"
+
+# 2. Generate solution automatically  
+./sol
+
+# 3. Your files are ready with complete bilingual documentation!
+```
+
 ## Technical Details
 - **Programming Language**: Python 3.x (preferred for its readability and extensive libraries).
 - **Version Control**: Managed with Git, using the `main` branch as the default.
 - **File Structure**:
   - `solutions/YYYY-MM-DD/`: Daily solution files (e.g., `.py` for code, `.md` for explanations).
-  - `notes/`: Optional directory for general learning notes or summaries.
-- **Documentation**: Each solution includes a Markdown file with problem statement, approach, complexity analysis, and optimization considerations.
+  - `daily` & `leetcode_daily.py`: Problem setup automation scripts
+  - `sol` & `solve_latest.py`: Solution generation automation scripts
+  - `copy_folder.sh`: Utility for creating daily folders
+- **Documentation Format**: 
+  - **Bilingual Support**: All files contain both English and Chinese
+  - **Python Files**: Bilingual inline comments (English first, Chinese second)
+  - **Markdown Files**: English version first, then Chinese version separated by `---`
+  - **Auto-Generated**: Complete problem analysis, complexity analysis, and examples
 
 ## How to Contribute
 I welcome contributions and discussions from the community! Here's how you can get involved:

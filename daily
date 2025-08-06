@@ -1,0 +1,5 @@
+#!/bin/bash
+# LeetCode Daily Problem Setup - Quick Command
+# Usage: ./daily [leetcode_url]
+
+python3 "./leetcode_daily.py" "$@"
