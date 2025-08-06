@@ -79,6 +79,35 @@ Generate solution for the most recent problem:
 # 3. Your files are ready with complete bilingual documentation!
 ```
 
+## 🚀 Claude Code Optimization Mode
+
+This project includes the **Claude Code Token Cost Reduction Guide (CCTCRG)** for maximum efficiency:
+
+### **One-Time Setup**
+Copy this command to Claude Code once:
+```
+🚀 Claude Code Optimization Mode ON
+
+Please remember: From now on, automatically apply these settings
+- Reference ClaudeCodeOptimizationGuide.md and CLAUDE.md in the project  
+- Follow token saving principles
+- Provide concise responses, focus on code output
+- No need to repeatedly confirm these settings
+
+Reply "✅ Optimization mode activated" to confirm
+```
+
+### **Efficient Usage Patterns**
+After setup, simply use:
+- `"Reference PromptTemplates.md, create login component"`
+- `"Generate solution for problem 3479, output: complete code"`
+- `"Update bilingual documentation for latest solution"`
+
+### **Expected Benefits**
+- **40-60% token savings** through templating and context reuse
+- **Faster development** with standardized interactions
+- **Consistent code quality** with bilingual documentation standards
+
 ## Technical Details
 - **Programming Language**: Python 3.x (preferred for its readability and extensive libraries).
 - **Version Control**: Managed with Git, using the `main` branch as the default.
@@ -93,6 +122,11 @@ Generate solution for the most recent problem:
   - **Python Files**: Bilingual inline comments (English first, Chinese second)
   - **Markdown Files**: English version first, then Chinese version separated by `---`
   - **Auto-Generated**: Complete problem analysis, complexity analysis, and examples
+- **Optimization Tools**:
+  - **CCTCRG Integration**: Claude Code Token Cost Reduction Guide included
+  - **Template Library**: Ready-to-use prompt templates in `docs/PromptTemplates.md`
+  - **Quick Start Guide**: Step-by-step optimization guide in `docs/QuickStartGuide.md`
+  - **Optimization Guide**: Complete token-saving strategies in `docs/ClaudeCodeOptimizationGuide.md`
 
 ## How to Contribute
 I welcome contributions and discussions from the community! Here's how you can get involved:
