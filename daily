@@ -2,4 +2,4 @@
 # LeetCode Daily Problem Setup - Quick Command
 # Usage: ./daily [leetcode_url]
 
-python3 "./leetcode_daily.py" "$@"
+python3 "./scripts/leetcode_daily.py" "$@"

@@ -2,4 +2,4 @@
 # LeetCode Solution Generator - Quick Command
 # Usage: ./sol
 
-python3 "./solve_latest.py"
+python3 "./scripts/solve_latest.py"

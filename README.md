@@ -84,9 +84,10 @@ Generate solution for the most recent problem:
 - **Version Control**: Managed with Git, using the `main` branch as the default.
 - **File Structure**:
   - `solutions/YYYY-MM-DD/`: Daily solution files (e.g., `.py` for code, `.md` for explanations).
-  - `daily` & `leetcode_daily.py`: Problem setup automation scripts
-  - `sol` & `solve_latest.py`: Solution generation automation scripts
-  - `copy_folder.sh`: Utility for creating daily folders
+  - `scripts/`: Python automation scripts (`leetcode_daily.py`, `solve_latest.py`)
+  - `tools/`: Shell utilities (`copy_folder.sh`)
+  - `docs/`: Documentation files (`USAGE.md`, `CLAUDE.md`)
+  - `daily` & `sol`: Main command scripts
 - **Documentation Format**: 
   - **Bilingual Support**: All files contain both English and Chinese
   - **Python Files**: Bilingual inline comments (English first, Chinese second)

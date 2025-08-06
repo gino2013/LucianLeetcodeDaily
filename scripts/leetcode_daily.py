@@ -78,7 +78,7 @@ def get_today_folder():
 def create_daily_folder():
     """創建今日資料夾"""
     print("正在創建今日資料夾...")
-    result = run_command("./copy_folder.sh")
+    result = run_command("./tools/copy_folder.sh")
     if result is not None:
         print(f"✅ {result}")
         return True
