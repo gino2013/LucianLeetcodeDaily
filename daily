@@ -1,5 +1,35 @@
 #!/bin/bash
 # LeetCode Daily Problem Setup - Quick Command
-# Usage: ./daily [leetcode_url]
+# Usage: 
+#   ./daily                     # Interactive mode (will prompt for content)
+#   ./daily [leetcode_url]      # Interactive mode with URL
+#   echo "content" | ./daily    # Smart mode with piped input
+#   ./daily "problem content"   # Smart mode with content as argument
 
-python3 "./scripts/leetcode_daily.py" "$@"
+# Check if arguments contain problem content first
+if [[ "${*}" =~ [0-9]+\. ]] || [ $# -gt 0 ] && [[ "${1}" =~ ^[0-9]+\. ]]; then
+    # Smart mode: arguments contain problem content (has number followed by dot)
+    python3 "./scripts/daily_smart.py" "$*"
+elif [ ! -t 0 ]; then
+    # Smart mode: input from pipe
+    python3 "./scripts/daily_smart.py"
+else
+    # No arguments and no pipe input - show instructions for Claude Code
+    echo "🚀 LeetCode Daily Problem Setup"
+    echo "==============================="
+    echo ""
+    echo "在 Claude Code 中，請使用以下方式："
+    echo ""
+    echo "1. 將完整題目內容作為參數（推薦）："
+    echo "   ./daily \"2787. Ways to Express an Integer as Sum of Powers"
+    echo ""
+    echo "Given two positive integers n and x..."
+    echo ""
+    echo "Example 1:..."
+    echo "\""
+    echo ""
+    echo "2. 使用管道輸入："
+    echo "   echo \"完整題目內容\" | ./daily"
+    echo ""
+    echo "注意：請將完整的題目內容（包含題號、標題、描述、範例）放在引號內"
+fi
